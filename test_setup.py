@@ -1,3 +1,4 @@
-with open("name.txt", "r", encoding="utf-8") as file:
-    content = file.read()
-print(content)
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+
+def test_text_splitter():
+    return RecursiveCharacterTextSplitter()
